@@ -1,0 +1,8 @@
+tensorflow
+flask
+pandas
+sklearn
+yfinance
+datetime
+sys
+numpy
