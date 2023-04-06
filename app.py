@@ -99,6 +99,10 @@ def predict():
     return jsonify({"predictions": custom_predictions.tolist()})
 
 if __name__ == '__main__':
+    # Create 'models' directory if it doesn't exist
+    if not os.path.exists('models'):
+        os.makedirs('models')
+
     # Delete old models every day at 00:00
     schedule.every().day.at("00:00").do(delete_old_models)
 
