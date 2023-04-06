@@ -64,5 +64,3 @@ LSTM-Stock-Forecaster is a deep learning-based stock price prediction applicatio
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-
