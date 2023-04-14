@@ -15,21 +15,28 @@ LSTM-Stock-Forecaster is a deep learning-based stock price prediction applicatio
 
 1. Clone the repository:
 
-    git clone https://github.com/yourusername/LSTM-Stock-Forecaster.git
-    cd LSTM-Stock-Forecaster
+```sh
+git clone https://github.com/yourusername/LSTM-Stock-Forecaster.git
+cd LSTM-Stock-Forecaster
+```
 
 2. Install the required packages:
 
-    pip install -r requirements.txt
+```sh
+pip install -r requirements.txt
+```
 
 ## Usage
 
 1. Run the Flask application:
 
-    python app.py
+```sh
+python app.py
+```
 
 2. Send a POST request to the Flask API containing the required JSON data:
 
+```
 {
 "ticker": "AAPL",
 "look_back": 60,
@@ -42,9 +49,11 @@ LSTM-Stock-Forecaster is a deep learning-based stock price prediction applicatio
 ]
 }
 }
+```
 
 3. The API will return the stock price predictions in JSON format:
 
+```
 {
 "predictions": [
 [152.33],
@@ -52,6 +61,7 @@ LSTM-Stock-Forecaster is a deep learning-based stock price prediction applicatio
 ...
 ]
 }
+```
 
 ## Contributing
 
