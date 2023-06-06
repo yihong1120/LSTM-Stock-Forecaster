@@ -16,7 +16,7 @@ LSTM-Stock-Forecaster is a deep learning-based stock price prediction applicatio
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/LSTM-Stock-Forecaster.git
+git clone https://github.com/yihong1120/LSTM-Stock-Forecaster.git
 cd LSTM-Stock-Forecaster
 ```
 
