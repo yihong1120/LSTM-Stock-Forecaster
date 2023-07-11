@@ -73,4 +73,4 @@ python app.py
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/yihong1120/LSTM-Stock-Forecaster/blob/main/LICENSE) file for more details.
