@@ -107,5 +107,5 @@ if __name__ == '__main__':
     schedule.every().day.at("00:00").do(delete_old_models)
 
     # Run Flask app
-    app.run(debug=True)
+    app.run()
 
